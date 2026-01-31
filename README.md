@@ -103,7 +103,7 @@ Returns an SVG string of a randomly generated blob character.
 
 ## Demo
 
-Try it out: [https://enjeck.com/Blobby](https://enjeck.com/Blobby)
+See some example generated blobs: [https://enjeck.com/Blobby](https://enjeck.com/Blobby)
 
 ## License
 
