@@ -1,7 +1,7 @@
 # Blobby
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/enjeck/Blobby/main/blobby.gif" width="150" alt="Blobby" />
+  <img src="./blobby.gif" width="150" alt="Blobby" />
 </p>
 
 <p align="center"><strong>Generate random SVG blob characters</strong></p>
@@ -9,7 +9,7 @@
 <p align="center">
   <a href="https://www.npmjs.com/package/blobby-svg"><img src="https://img.shields.io/npm/v/blobby-svg.svg" alt="npm version"></a>
   <a href="https://www.npmjs.com/package/blobby-svg"><img src="https://img.shields.io/npm/dm/blobby-svg.svg" alt="npm downloads"></a>
-  <a href="https://github.com/enjeck/Blobby/blob/main/LICENSE"><img src="https://img.shields.io/npm/l/blobby-svg.svg" alt="license"></a>
+  <a href="https://github.com/enjeck/blobby-svg/blob/main/LICENSE"><img src="https://img.shields.io/npm/l/blobby-svg.svg" alt="license"></a>
 </p>
 
 No two characters are the same! Each Blobby has a unique body shape, randomly generated colors, and expressive eyes. Perfect for avatars, placeholders, or adding personality to your app.

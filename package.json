@@ -34,11 +34,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/enjeck/Blobby"
+    "url": "https://github.com/enjeck/blobby-svg"
   },
-  "homepage": "https://enjeck.com/Blobby",
+  "homepage": "https://enjeck.com/blobby-svg",
   "bugs": {
-    "url": "https://github.com/enjeck/Blobby/issues"
+    "url": "https://github.com/enjeck/blobby-svg/issues"
   },
   "devDependencies": {
     "tsup": "^8.0.0",
