@@ -1,7 +1,7 @@
 {
   "name": "blobby-svg",
   "version": "1.0.0",
-  "description": "Generate random SVG blob characters - unique, colorful avatars",
+  "description": "Random SVG Avatar Generator & Blob Character Library - lightweight, zero-dependency, TypeScript",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",

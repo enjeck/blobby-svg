@@ -4,7 +4,17 @@
   <img src="./blobby.gif" width="150" alt="Blobby" />
 </p>
 
-<p align="center"><strong>Generate random SVG blob characters</strong></p>
+<p align="center"><strong>Random SVG Avatar Generator & Blob Character Library</strong></p>
+
+Generate unique, colorful, and random blob characters for your applications. Perfect for default avatars, user placeholders, or adding a touch of personality to your UI.
+
+## Features
+
+- **Unique Avatars**: Infinite variations of shapes, eyes, and colors.
+- **Customizable**: Control sizes, palettes, and features (eyes/blush).
+- **Lightweight**: Zero dependencies, returns pure SVG strings.
+- **Framework Agnostic**: Works with React, Vue, Svelte, or vanilla JS.
+- **TypeScript**: Fully typed for excellent developer experience.
 
 <p align="center">
   <a href="https://www.npmjs.com/package/blobby-svg"><img src="https://img.shields.io/npm/v/blobby-svg.svg" alt="npm version"></a>
@@ -12,7 +22,7 @@
   <a href="https://github.com/enjeck/blobby-svg/blob/main/LICENSE"><img src="https://img.shields.io/npm/l/blobby-svg.svg" alt="license"></a>
 </p>
 
-No two characters are the same! Each Blobby has a unique body shape, randomly generated colors, and expressive eyes. Perfect for avatars, placeholders, or adding personality to your app.
+No two characters are the same! Each Blobby has a unique body shape, randomly generated colors, and expressive eyes.
 
 ## Installation
 
@@ -49,14 +59,19 @@ const svg = generateBlobby({
 
 ### React Example
 
+You can render the SVG directly, or use it as an image source (safer and easier):
+
 ```jsx
 import { generateBlobby } from "blobby-svg";
 import { useMemo } from "react";
 
 function Avatar() {
-  const svg = useMemo(() => generateBlobby({ size: 100 }), []);
+  const svgUrl = useMemo(() => {
+    const svg = generateBlobby({ size: 100 });
+    return `data:image/svg+xml;utf8,${encodeURIComponent(svg)}`;
+  }, []);
 
-  return <div dangerouslySetInnerHTML={{ __html: svg }} />;
+  return <img src={svgUrl} alt="Blobby Avatar" />;
 }
 ```
 
